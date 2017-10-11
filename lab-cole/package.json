@@ -1,0 +1,16 @@
+{
+  "name": "lab-cole",
+  "version": "1.0.0",
+  "description": "Documentation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lint": "^1.1.2",
+    "start": "^5.1.0",
+    "test": "^0.6.0"
+  }
+}
