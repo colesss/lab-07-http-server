@@ -1,16 +1,23 @@
 {
   "name": "lab-cole",
   "version": "1.0.0",
-  "description": "Documentation",
+  "description": "http-server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "jest -i --coverage"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.2.1",
+    "dotenv": "^4.0.0",
+    "jest": "^21.1.0",
+    "superagent": "^3.6.0"
+  },
   "devDependencies": {
-    "lint": "^1.1.2",
-    "start": "^5.1.0",
-    "test": "^0.6.0"
+    "nodemon": "^1.12.1"
   }
 }
